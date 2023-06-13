@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;700&display=swap');
+
+
+.contaner_footer{
+    z-index:11000;
+
+    background-color: black;
+
+    height:20vw;
+    position: relative;
+    bottom: 0;
+}
+
+.icoHover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.foot1{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.673);
+    border-image: linear-gradient(18deg, rgba(255, 255, 255, 0), rgb(255, 255, 255)) 1;
+    margin-left: 2vw;
+
+}
+.foot2{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:1vw;
+
+}
+
+
+
+
+.foot3{
+    height: 10%;
+    border-top: 2px solid rgba(255, 255, 255, 0.673);
+    border-image: linear-gradient(45deg, rgb(255, 255, 255), rgba(83, 83, 83, 0)) 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.CGUect{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.siren{
+    margin-right: 1vw;
+}
+
+.concu{
+    font-weight: 100 ;
+
+    text-align:center;
+    margin-right:1vw;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+
+
+.span_cgu{
+    margin-left:2vw;
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+}
+
+
+.icoFoot{
+    height:5vw;
+}
+
+
+.nous_suivre{
+    margin-left: 1vw;   
+    margin-right: auto;
+    color:white;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+
+.container_grandIco{
+
+    margin-right:2vw;
+    height:100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.icoPass{
+    height:90%;
+}
+
+.icoShotgun{
+    height:40%;
+}
+
+
+.logo_b2b{
+    height: 90%;
+    margin-left:1%;
+}
+
+.description_b2b{
+    width:fit-content;
+    color:white;
+    text-align: left;
+    margin-left:5vw;
+    margin-right:5vw;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .contaner_footer{
+
+        background-color: black;
+        height:140vw;
+        position: relative;
+        bottom: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .foot1{
+        display: flex;
+        height: 50%;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.673);
+        border-image: linear-gradient(18deg, rgba(255, 255, 255, 0), rgb(255, 255, 255)) 1;
+        margin-left: 2vw;
+    
+    }
+    .foot2{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left:1vw;
+    
+    }
+    
+    
+    
+    
+    .foot3{
+        height: 10%;
+        border-top: 2px solid rgba(255, 255, 255, 0.673);
+        border-image: linear-gradient(45deg, rgb(255, 255, 255), rgba(83, 83, 83, 0)) 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .CGUect{
+        color:white;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    
+    .siren{
+        margin-right: 1vw;
+    }
+    
+    .concu{
+        font-weight: 100 ;
+        background-color: black;
+        text-align:center;
+        margin-right:1vw;
+        color:white;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom:20vw;
+
+    }
+    
+    
+    .span_cgu{
+        margin-left:2vw;
+        display: flex;
+        justify-content: space-between;
+        width:56%;
+
+    }
+    
+    
+    .icoFoot{
+        width: 20%;
+        height: 100%;
+    }
+    
+    
+    .nous_suivre{
+
+        margin-left: 1vw;   
+        margin-right: 1vw;
+        color:white;
+        font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        display: flex;
+        width: 100%;
+    }
+    
+    
+    .container_grandIco{
+    
+        margin-right:2vw;
+        height:50%;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .icoPass{
+        width:50%;
+    }
+    
+    .icoShotgun{
+        width:50%;
+    }
+    
+    
+    .logo_b2b{
+        height: 40%;
+        margin-left:1%;
+    }
+    
+    .description_b2b{
+        width:fit-content;
+        color:white;
+        text-align: left;
+        margin-left:5vw;
+        margin-right:5vw;
+        font-size: 0.8rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+
+
+}

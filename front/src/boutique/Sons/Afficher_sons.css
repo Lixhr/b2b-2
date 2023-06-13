@@ -1,0 +1,351 @@
+.container_global{
+
+}
+
+.titre{
+    overflow: hidden;
+    font-size: 100%;
+
+}
+
+.item{
+    background-color: rgb(230, 230, 230);
+    width:100%;
+    border-radius: 4vw 4vw 2vw 2vw;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.257);
+    transition: 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.item:hover{
+    background-color: rgb(255, 255, 255);
+    transform: width(1.2);
+    
+}
+
+.icoItem{
+    min-width:30px;
+    max-width: 3vw;
+    
+}
+
+.icoItem--play{
+    position: relative;
+    bottom: 0;
+    border: none;
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    width: 3.2vw;
+    margin-right: 3vw;
+    transition: transform .1s ease;
+}
+
+.titre_son{
+    margin-bottom: auto;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.icoItem:hover{
+
+    transform: scale(1.2);
+
+
+
+}
+
+.boutonItem--panier{
+    border: none;
+    width: fit-content;
+    width: 3.2vw;
+    
+}
+
+
+
+.son--prix{
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.genre{
+    font-weight: 100;
+    font-size: 1.4rem;
+    font-family: 'Bebas Neue', cursive;  
+}
+.item_panier_prix{
+    display: flex;
+    margin-left:5vw;
+    align-items: center;
+}
+
+.lienItem{
+    width: fit-content;
+}
+
+.containerPrix{
+    padding-left: 2%;
+    padding-right: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.itemImg{
+    width:100%;
+    border-radius: 4vw;
+
+}
+
+.itemContainer{
+
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 1vw;
+    grid-auto-rows: minmax(10vw, auto);
+}
+
+
+
+
+
+.articlesContainer{
+    display: flex;
+    justify-content: center;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15vw;
+
+
+}
+
+.container_tri{
+    width: 100%;
+    backdrop-filter: blur(13px);
+    border-radius: 10vw 0 10vw 10vw;
+    display: flex;
+    margin-top:20vw;
+    top: 4vw;
+    left:100vw;
+    width:fit-content;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 2vw;
+    font-family: 'Bebas Neue', cursive;
+    margin-top:10vw;
+    font-size: 3vw;
+}
+
+.option_tri{
+    padding-left: 0.5vw;
+    border-radius: 10vw;
+    border: none;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.container_dj{
+display:flex;
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 4%, rgba(255,255,255,1) 94%);
+flex-direction: column;
+align-items: center;
+
+padding-top:1.6vw;
+padding-bottom:1.6vw;
+padding-left: 1vw;
+padding-right: 1vw;
+
+}
+
+.sons_wav{
+    
+    padding-top:5vw;
+    padding-bottom: 0vw;
+    font-size: 8vw;
+    font-weight: 900;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom:4.3vw;
+
+}
+
+.ami_dj{
+    padding-bottom: 0vw;
+    font-size:9vw;
+
+}
+
+
+
+
+
+.wav_desc--2{
+    font-family: 'Bebas Neue', cursive;
+    font-size:3vw;
+    color:rgb(255, 255, 255);
+    padding:1vw;
+    font-weight: 100;
+    background-color: black;
+    
+
+}
+
+
+
+.logo_pass{
+    width:20vw;
+    margin-left:2vw;
+}
+
+.logo_pass:hover{
+    transition: transform .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+.span_pass{
+
+    display:flex;
+    justify-content: space-around;
+    padding-right:0vw;
+}
+.logo_pass{
+    padding-left: 1vw;
+    background-position: center;
+    background-color: black;
+    border: .2vw solid rgb(255, 255, 255);
+    border-radius: 20vw;
+    width: 15vw;
+    background-size:cover;
+    background-image: url('https://pass.culture.fr/wp-content/uploads/2020/11/R_PASS_CULTURE_HD.png');
+}
+
+
+@media screen and (max-width: 1100px) {
+    .itemContainer{
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 1vw;
+        grid-auto-rows: minmax(10vw, auto);
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .itemContainer{
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 1vw;
+        grid-auto-rows: minmax(10vw, auto);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container_dj{
+        padding-top: 10vw;
+
+    }
+
+
+    .span_pass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+    }
+
+    .logo_pass{
+        height:22vw;
+        width:80vw;
+    }
+    .wav_desc{
+        font-family: 'Bebas Neue', cursive;
+        font-size:3vw;
+        color:white;
+        padding:1vw;
+    
+    }
+    .span_desc_wav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding-right:1vw
+    }
+
+    .eligible{
+        font-size:10vw;
+        width: fit-content;
+    }
+    .profitez{
+        font-size: 7vw;
+    }
+
+    .itemContainer{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 1vw;
+        grid-auto-rows: minmax(10vw, auto);
+        
+    }
+
+    .titre_son{
+        font-size: 1.5em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .icoItem--play{
+        border: none;
+        background-color: transparent;
+        border: none;
+        width: fit-content;
+        width: 3.2vw;
+        margin-right: 10vw;
+        margin-left:0;
+        
+        transition: transform .1s ease;
+    }
+    .item_panier_prix{
+        margin-left: 0;
+    }
+    .containerPrix{
+        padding-right: 5vw;
+    }
+
+    .container_tri{
+        width: 100%;
+
+        display: flex;
+    
+        top: 4vw;
+        left:100vw;
+        width:fit-content;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 2vw;
+        font-family: 'Bebas Neue', cursive;
+    
+        font-size: 9vw;
+        margin-top:20vw;
+    }
+    
+    .option_tri{
+        padding-left: 0.5vw;
+        border-radius: 10vw;
+        border: none;
+        color:rgb(255, 255, 255);
+        background-color: black;
+        font-size: 6vw;
+        font-family: 'Bebas Neue', cursive;
+    }
+}

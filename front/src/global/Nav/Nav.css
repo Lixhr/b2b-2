@@ -1,0 +1,264 @@
+
+
+
+
+
+
+
+/*    NAVBAR */
+#navLink{
+    display: none;
+}
+
+
+nav{
+    z-index:1000000;
+    position: fixed;
+    bottom:0;
+    background-color: #00000095;
+    backdrop-filter: blur(13px);
+    color:white;
+    height:7vh;
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 4px solid rgb(255, 255, 255);
+
+    border-radius: 30pt 30pt 30pt 30pt;
+    display: flex;
+    align-items: center;
+}
+
+.logo_Rond_nav{
+    display: none;
+}
+
+.bloc_Nav{
+    z-index: 10000;
+    position: fixed;
+    height: auto;
+    width: 100vw;
+    height: auto !important;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8vw;
+
+}
+
+.icones_Nav{
+
+    width:6vh;
+    height:auto;    
+}
+
+
+.nav_Fullwidth{
+    display: none;
+
+
+}
+
+
+@media (min-width: 1000px) { 
+
+
+    
+    
+ 
+    
+    @keyframes fade-in {
+        from {
+
+          transform: translateY(-20vh);
+        }
+        to {
+
+          transform: translateY(0);
+        }
+      }
+    
+    /*    NAVBAR */
+    nav{
+
+
+        top:0;
+        /* display: none; */
+
+
+        position: fixed;
+
+        color:white;
+        height:6vh;
+        border: 0px solid rgb(255, 255, 255);
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        -webkit-filter: drop-shadow(10px 10px 10px #000000);
+        filter: drop-shadow(10px 10px 10px #000000);
+    }
+    
+    
+    .bloc_Nav{
+        padding: 0%;
+        z-index: 10000;
+        height: auto;
+        width: 100%;
+        height: auto !important;;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+            
+    }
+
+    #navLink:hover{
+
+        font-size: 1.6vw;
+    }
+
+    #navLink{
+        display: block;
+        font-size: 1.5vw;
+        padding-right:1vw;
+        padding-left: 1vw;
+        padding-bottom: 1vw;  
+        width: fit-content;
+        text-decoration: none;
+        font-family: 'Monument Extended', sans-serif;
+        padding-top:2.3vw;
+        margin-bottom:0.1vw;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+
+    .active{
+        background-color: white;
+        color:black;
+
+        z-index: 1000;
+        transform: scale(1.1);
+
+
+    }
+
+    .pending:hover{
+        transition: all 0.2s ease-in-out;
+        transform: scale(1.01);
+    }
+
+
+    .pending{
+        background-color: black;
+        color:white;
+        height: 100%;
+    }
+    
+    .icones_Nav{
+        display: none;
+        width:6vh;
+        height:auto;    
+    }
+
+    .nav_Fullwidth{
+
+        display:flex;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        background-color: none;
+        font-size: 1.6vw;
+        height:10%;
+    }
+
+    .logo_Rond_nav{
+        /* margin-left: 10vw; */
+        display: flex;
+        width:8vw;
+        margin-left:3vw;
+        margin-right: 50vw;
+        left:35vw;
+        margin-top:6vw;
+        -webkit-filter: drop-shadow(5px 5px 5px #000000);
+        filter: drop-shadow(5px 5px 5px #000000);
+
+        transition: 0.5s ease;
+
+
+
+    }
+
+    .logo_Rond_nav:hover{
+        margin-left:7vw;
+        margin-top:10vw;
+        transform: scale(1.5);
+        transition: 0.5s ease;
+    }
+
+    .logo_Rond_nav:hover:not(:hover){
+        display: flex;
+        width:8vw;
+        margin-left:0.5vw;
+        margin-right: 16vw;
+        left:0;
+        margin-top:6vw;
+        -webkit-filter: drop-shadow(5px 5px 5px #000000);
+        filter: drop-shadow(5px 5px 5px #000000);
+        transition:  1s ease;
+    }
+
+
+    .div_titres{
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        display:flex;
+        width:fit-content;
+        margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+        padding-left:0.1vw;
+        padding-right:2vw;
+    }
+
+    
+
+    .nav_full_width{
+        height: 100%;
+        width: 100%;
+        right:0vw;
+        margin-right:1vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+    .div_titresNav{
+        background-color: rgb(0, 0, 0);
+        height:9vh;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .div_titresNav:hover{
+        background-color: rgb(21, 21, 21);
+        filter: invert(1);
+
+        transition: 0.2s ease-in-out ;
+    }
+
+
+
+    .div_titresNav.active:hover{
+        filter: invert(0);
+    }
+
+    .nav_Fullwidth--isactive{
+        color:black
+    }
+
+
+}

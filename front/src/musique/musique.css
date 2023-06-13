@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;500;900&display=swap');
+
+.intro_musique{
+  height:40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:white;
+  background: rgb(4,4,4);
+  background: linear-gradient(180deg, rgba(4, 4, 4, 0.758) 70%, rgba(0, 0, 0, 0.73) 100%);
+  backdrop-filter: invert(0%);
+  font-family: 'Bebas Neue', cursive;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  width:100%;
+}
+
+.intro_musique--1{
+  font-size: 5vw;
+}
+
+
+
+.intro_musique--2{
+  font-size: 3vw;
+  color:black;
+  -webkit-text-stroke-width: 0.06vw;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+
+  animation-name: clignotter;
+  animation-duration: 01s; 
+  animation-iteration-count: infinite; 
+
+}
+
+
+@keyframes clignotter {
+  0% {
+      opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+}
+}
+
+
+
+.div_musique{
+    width: 100%;
+    opacity: 1;
+    animation-name: fond;
+    animation-duration: 05s; 
+    animation-iteration-count: infinite; 
+
+}
+
+
+
+.rideaunoir{
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+
+  background-size: 40%;
+
+}
+
+
+
+
+.container_musique{
+  filter: hue-rotate(70deg);
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0vw;
+    background-image: url('./images/fond_musique.jpg');
+    animation-name: fond;
+    animation-duration: 05s; 
+    animation-iteration-count: infinite; 
+    
+    filter:grayscale(0.8)  
+
+  }
+
+
+
+
+
+
+.fond_musique{
+
+}
+
+
+
+.container{
+
+  clip-path: polygon(0 -0.1%, 100% 11.6%, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: space-around;
+  position: absolute;
+    width: 100%;
+    position: absolute;
+    top:32vh;
+
+  }
+
+
+
+.fond_ico{
+  
+
+  backdrop-filter: invert(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100%/3);
+  height: 68vh;
+
+  z-index:10;
+  background: rgba(4, 4, 4, 0.516);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+  transition: 0.5s ease-in-out;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, inset 0px 9px 19px 10px rgba(0,0,0,0.41); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, inset 0px 9px 19px 10px rgba(0,0,0,0.41);
+}
+
+.fond_ico:hover{
+  backdrop-filter: invert(0%);
+    width: calc(130%/3); 
+    background-color: rgba(0, 0, 0, 0.667);
+
+
+}
+
+
+.ico{
+
+
+  width: 10vw;
+  z-index: 10;
+  stroke-width: 2;
+  stroke: 10px black ;
+  
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  
+
+
+  .intro_musique--1{
+    font-size: 8vw;
+  }
+  
+  
+  
+  .intro_musique--2{
+    font-size: 7vw;
+    color:rgb(255, 249, 249);
+    -webkit-text-stroke-width: 00vw;
+  background-color: black;
+  padding-top: 1vw;
+    width:100%;
+
+  
+
+  }
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  .ico{
+  
+  
+    width: 20vw;
+    z-index: 10;
+    stroke-width: 2;
+    stroke: 10px black ;
+    
+  }
+
+
+}

@@ -1,0 +1,154 @@
+[
+
+
+
+{
+
+    "img": "https://i1.sndcdn.com/artworks-umND7W9GTZWgqJqt-1I2oVQ-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/traka-c-do-u-feel-it",
+    "titre": "TraKa-C - Do U Feel It ?",
+    "genre": ["Gabber", "Hardcore"],
+    "prix" : 3,
+    "type": "digital"
+
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-yrW7ghd36OHyUSwk-l5QEIw-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-the-dark-side-gabber",
+    "titre": "Lich'ar - The Dark Side",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital" 
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-wiC5ezVA17LyigAe-pNvrDA-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-cornelius",
+    "titre": "Lich'ar - Corenelius",
+    "genre": ["Gabber", "Hardcore"],
+    "prix": 3,
+    "type": "digital"    
+},
+
+
+{
+    "img": "https://i1.sndcdn.com/avatars-5CxyshNf34Lcoyh2-SWOmKg-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-nsm",
+    "titre": "Lich'ar - NSM",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital"    
+},
+
+
+{
+    "img": "https://i1.sndcdn.com/avatars-5CxyshNf34Lcoyh2-SWOmKg-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-pomox-timax-vlalebail",
+    "titre": "Lich'ar, Pomox & Timax - Vlalebail",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital"   
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-0ua7OIJuRoV5nWH2-6PljUQ-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lose-yourself",
+    "titre": "Lich'ar - Lose Yourself",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital"     
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-1gwTOvZofsEQRTxc-A5X29w-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-acid-coreporation",
+    "titre": "Lich'ar - Acid Coreporation",
+    "genre": ["Acidcore"],
+    "prix": 3,
+    "type": "digital"     
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-v7h19VtKjUAscRiB-kql2Eg-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/doomed-generation",
+    "titre": "Lich'ar - Doomed Generation",
+    "genre": ["Doomcore"],
+    "prix": 2.5,
+    "type": "digital"     
+},
+
+{
+    "img": "https://i1.sndcdn.com/artworks-TMLybLdr0oaOFXCh-M0nMow-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-im-right-behind-you",
+    "titre": "Lich'ar - I'm right behind you",
+    "genre": ["Doomcore"],
+    "prix": 2.5,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-sylKz2eOIHlBBWsN-yUP2OQ-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/tenebris-viventem",
+    "titre": "Lich'ar - Tenebris Viventem",
+    "genre": ["Doomcore"],
+    "prix": 1.5,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-BxEzWgtym7CyIeaY-pd90qw-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-nuke-sequence",
+    "titre": "Lich'ar - Nuke Sequence",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-wI4vxDEfQFmhLSV0-yzzHGw-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/gabber-6",
+    "titre": "Lich'ar & Pomox - KTB",
+    "genre": ["Gabber"],
+    "prix": 3,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-KTueH3ppPnFG17bA-FtHBSQ-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-teknaket-mental-pressure",
+    "titre": "Lich'ar & Teknaket - Mental Pressure",
+    "genre": ["Tribe"],
+    "prix": 1,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-Yfkv30T5sO98FRSR-GFK0TQ-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/acid-plasma",
+    "titre": "Lich'ar - Acid Plasma",
+    "genre": ["Acidcore"],
+    "prix": 1,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-C71vCfzgQHFy5voT-kL4DxA-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-pomox-hardcore-in-a-church",
+    "titre": "Lich'ar & Pomox - Hardcore in a Church",
+    "genre": ["Gabber"],
+    "prix": 2.5,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-BoJyuhp706RlXy3s-m9KcdA-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/lichar-killing-in-the-name",
+    "titre": "Lich'ar - Killing in the Name",
+    "genre": ["Gabber"],
+    "prix": 2,
+    "type": "digital"     
+},
+{
+    "img": "https://i1.sndcdn.com/artworks-raB2ZZy8v2SoMXmI-2eYa0g-t500x500.jpg",
+    "url": "https://soundcloud.com/user-698626032/turn-my-music-up",
+    "titre": "Lich'ar - Turn My Music Up",
+    "genre": ["Gabber"],
+    "prix": 1,
+    "type": "digital"     
+}
+
+]

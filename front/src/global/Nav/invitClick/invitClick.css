@@ -1,0 +1,41 @@
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+}
+
+.invit_click{
+    margin-left: 57.3vw;
+    z-index:1000000;
+    position: fixed;
+    top:4vw;
+    background-color: white;
+    height: 0.5vh;
+    width:41vw;
+    transition-timing-function: ease;
+    animation-duration: 2.5s;
+    animation-name: loop;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 100vw;
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .invit_click{
+        width:90vw;
+        top:92.3vh;
+        height:10vh;
+        margin-left: 0vw;
+    }
+}
+
+
+
+@keyframes loop {
+    0% {width: 0; }
+    100% {width: 100; }
+  }
+  

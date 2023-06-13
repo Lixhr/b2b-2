@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/monument-extended');
+
+.div_events{
+height: 100vh;
+
+}
+
+.titre_page_events{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index:1000;
+    transition: all 2.5s ease-in-out;
+    clip-path: polygon(100% 100%, 100% 0, 0 0, 0 100%);
+    font-family: 'Monument Extended', sans-serif;
+    /* ici display none! */
+}
+
+
+
+
+.down{
+
+
+    clip-path: polygon(100% 100%, 100% 0, 100% 100%, 0% 100%);
+    
+
+
+}
+
+
+.container_event1{
+    height:100vh;
+    width: 100%;
+
+    background: rgb(4,4,4);
+    background: radial-gradient(circle, rgba(4,4,4,1) 25%, rgb(0, 19, 2) 100%);
+    margin-bottom: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_event{
+    display: flex;
+    align-items: center;
+    border-radius: 4vw;
+    margin-left:1vw;
+    width:50vw;
+    transition: all 0.5s ease-in-out;
+    filter: contrast(1);
+
+}
+
+.img_event:hover{
+    transform: scale(1.03);
+    filter: contrast(2);
+}
+
+
+.img_event:hover .span_event{
+    display: none;
+}
+
+
+.span_event{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    align-self: center;
+}
+
+.paragraphe_event{
+    margin-left: 5vw;
+    align-self: self-start;
+    color: white;
+    text-align: left;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: black;
+    border-radius: 1vw;
+    font-size: 2vw;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 600;
+    padding:2vw;
+
+}
+.li_event{
+    
+    padding-top: 1.3vw;
+    font-size: 1.3vw;
+    width: 90%;
+    font-weight: 100;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.span_event{
+    flex-direction: column;
+}
+
+.img_event{
+    width: 100%;
+    margin: 0;
+}
+
+.paragraphe_event{
+    margin: 0;
+    font-size: 5vw;
+}
+
+.li_event{
+    font-size: 4vw;
+    margin-top: 3vw;
+}
+
+.container_event1{
+
+    justify-content: flex-start;
+    padding-top:5vw;
+
+}
+
+.span_boutons{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:13vw
+}
+
+}

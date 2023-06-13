@@ -1,0 +1,464 @@
+.main-container{
+
+}
+
+
+.div_b2b_records{
+    z-index:1000;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%, 0% 50%);
+
+}
+
+.titre_b2b{
+    
+    text-decoration: none;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+    font-size:7.6vw;
+    color: white;
+    margin-bottom: -3vw;
+    -webkit-text-stroke: 0.1vw rgb(0, 0, 0) ;
+}
+
+.titre_b2b--contour{
+    color:black;
+    -webkit-text-stroke: 0.1vw white ;
+
+}
+
+
+
+
+.span_records{
+    width: 94.7%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+
+.span_b2b{
+    margin-left: auto;
+    margin-right: auto;
+    width: 94.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.loader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index:100000;
+}
+
+
+.section2{
+
+ height: 50vh;
+ display: flex;
+width:100vw;
+ background-color: rgb(255, 255, 255);
+ z-index:-10;
+}
+
+
+.section3{
+ background-color: rgb(0, 0, 0);
+ clip-path: polygon(50% 0%, 0% 0, 100% 0, 100% 90%, 0 100%, 0% 0%);
+ height: 150vh;
+
+}
+
+.logo_rond{
+    top:10vw;
+    width: 50vw;
+    position: relative;
+    right:20vw;
+    opacity: 0.2;
+}
+.section2{
+    background-color: black;
+}
+
+
+
+
+.label_ind{
+
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+    font-size: 6vw;
+    width: 50vw;
+    position: relative;
+    bottom:10vw;
+
+    background-color: rgb(255, 255, 255);
+
+    bottom:0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.label_ind.blanc{
+    color:white;
+    background-color: black;
+    z-index: 0;
+    bottom:-0.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section4{
+    height:70vh;
+
+    transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+    -ms-transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+    -webkit-transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+    margin-bottom:40vh;
+
+}
+
+
+
+
+
+
+
+
+.span_genre_accueil{
+    display: flex;
+    width: 100vw;
+    right:40vw;
+    position: relative;
+}
+
+.genre_accueil{
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 500;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    position: relative;
+    padding:1vw;
+}
+
+.genre_accueil.--1{
+
+     margin-right:16vw;
+}
+.genre_accueil.--2{
+    margin-left:5vw;
+    margin-right:10vw;
+}
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:80vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    bottom:60vh;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+
+}
+
+
+.titre_pres{
+    padding-right: 3vw;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 500;
+    font-size: 9vw;
+    color:rgb(0, 0, 0);
+    position: relative;
+    top:10vh;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.2vw;
+}
+
+
+.section6{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    bottom:60vh;
+    padding-top:10vh;
+}
+
+.nos_artistes{
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 900;
+    font-size: 7vw;
+    color:rgb(0, 0, 0);
+    position: relative;
+    margin-bottom:10vh;
+}
+
+.grid_artistes{
+    position: sticky;
+    top:100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3vw;
+    grid-row-gap: 0px; 
+    padding: 3vw 3vw;
+}
+
+
+
+@media screen and  (max-width: 500px) {
+    .main-container{
+
+    }
+    
+    
+    .div_b2b_records{
+        z-index:1000;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%, 0% 50%);
+    
+    }
+    
+    .titre_b2b{
+        
+        text-decoration: none;
+        font-family: 'Monument Extended', sans-serif;
+        font-weight: 900;
+        font-size:7.6vw;
+        color: white;
+        margin-bottom: -3vw;
+        -webkit-text-stroke: 0.1vw rgb(0, 0, 0) ;
+    }
+    
+    .titre_b2b--contour{
+        color:black;
+        -webkit-text-stroke: 0.1vw white ;
+    
+    }
+    
+    
+    
+    
+    .span_records{
+        width: 94.7%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    
+    }
+    
+    
+    .span_b2b{
+        margin-left: auto;
+        margin-right: auto;
+        width: 94.7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .loader{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        z-index:100000;
+    }
+    
+    
+    .section2{
+    
+     height: 36vh;
+     display: flex;
+     flex-direction: column;
+    width:100vw;
+     background-color: rgb(255, 255, 255);
+     z-index:-10;
+    }
+    
+    
+    .section3{
+     background-color: rgb(0, 0, 0);
+     height: 50vh;
+    }
+    
+    .logo_rond{
+        top:10vw;
+        width: 90vw;
+        position: relative;
+        right:50vw;
+        opacity: 0.2;
+    }
+    
+    
+    
+    
+    
+    .label_ind{
+    
+        font-family: 'Monument Extended', sans-serif;
+        font-weight: 900;
+        font-size: 12vw;
+
+    
+        width: 100%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        bottom:0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .label_ind.blanc{
+        
+        color:rgb(255, 255, 255);
+        background-color: black;
+        z-index: 0;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .section4{
+        height:35vh;
+
+        transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+        -ms-transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+        -webkit-transform:matrix(1.00,-0.08,0.08,1.00,0,0);
+        margin-bottom:40vh;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .span_genre_accueil{
+        display: flex;
+        width: 100vw;
+        right:80vw;
+        position: relative;
+    }
+    
+    .genre_accueil{
+        font-family: 'Monument Extended', sans-serif;
+        font-weight: 500;
+        font-size: 6vw;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        position: relative;
+        padding:1vw;
+    }
+    
+    .genre_accueil.--1{
+    
+         margin-right:16vw;
+    }
+    .genre_accueil.--2{
+        margin-left:5vw;
+        margin-right:10vw;
+    }
+    
+    
+    .section5{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        
+        height:50vh;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+
+        -ms-transform:polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+        -webkit-clip-path:polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    }
+    
+    
+    .titre_pres{
+        font-family: 'Monument Extended', sans-serif;
+        font-weight: 500;
+        font-size: 9vw;
+        color:rgb(0, 0, 0);
+        margin-bottom: 5vh;
+        
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        -webkit-text-stroke-width: 0.2vw;
+    }
+    
+    
+    .section6{
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+
+        bottom:60vh;
+        padding-top:10vh;
+    }
+    
+    .nos_artistes{
+        font-family: 'Monument Extended', sans-serif;
+        font-weight: 900;
+        font-size: 9vw;
+        color:rgb(0, 0, 0);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+
+    }
+    
+    .grid_artistes{
+        position: sticky;
+        top:0vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 3vw;
+        grid-row-gap: 0px; 
+        padding: 3vw 3vw;
+    }
+    
+}
+    

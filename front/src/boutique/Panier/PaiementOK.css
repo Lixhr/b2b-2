@@ -1,0 +1,32 @@
+.div_valide{
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;   
+}
+
+.titre_paiement_val{
+    color:white; 
+    font-size: 5vw;
+}
+
+.p_mail{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.p_bientot{
+    color: white;
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+

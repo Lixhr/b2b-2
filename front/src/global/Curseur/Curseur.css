@@ -1,0 +1,36 @@
+body {             
+    cursor: none;
+    min-height: 100%;
+    background: rgb(255, 255, 255);        
+}                 
+
+  #myCustomCursor {             
+  position: fixed;             
+  width: 30px;             
+  height: 30px;             
+  background: rgb(255, 255, 255);             
+  border-radius: 50%;             
+  top: var(--y, 0);             
+  left: var(--x, 0);             
+  transform: translate(-50%, -50%);             
+  mix-blend-mode: difference;             
+  pointer-events: none;             
+
+  transition-timing-function: ease-out;             
+  z-index: 999999999999999999999;       
+}                  
+ 
+ #myCustomCursor.myCursorHoverState {             
+     width: 160px;
+     height: 160px;
+     background: blue;
+}     
+
+
+@media screen and (max-width: 450px) {
+
+  #myCustomCursor{
+    display: none;
+  }
+
+}

@@ -1,0 +1,457 @@
+.panier_active {
+    display:flex;
+    z-index: 9999;
+    animation: slide-down 1s ease forwards;
+
+  }
+
+
+.panier_disabled {
+    display: none;
+    transform: translateY(100%);
+  }
+
+
+
+  @keyframes slide-down {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+
+.container_panier{
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    bottom:0;
+    right:0;
+    width:55vw;
+    height: 80vh;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 100000000;
+}
+
+
+
+
+
+.titrePanier{
+    font-size: 7vw;
+    font-family: 'Bebas Neue', cursive;
+    height:3vw;
+}
+
+.total_prix {
+    margin-left: 1vw;
+    font-size: 4vw;
+    font-family: 'Bebas Neue', cursive;   
+}
+
+.div_total{
+    bottom:0;
+    position:fixed;
+    background-color: rgb(255, 255, 255);
+    width:90vw;
+    display: flex;
+    align-items: center;
+    border-top: solid 0.3vw black ;
+
+}
+
+.vide{
+    margin-top:15vw;
+    font-size: 2.9vw;
+    font-family: 'Bebas Neue', cursive;  
+    background-color: black;
+    color: white;  
+}
+
+.boutton_continuer{
+    font-size: 2.7vw;
+    font-family: 'Bebas Neue', cursive;  
+    background-color: black;
+    color:white;
+    border: none;
+    padding:1vw;
+    height:5vw;
+    width: 10vw;
+    border-radius: 2.8vw;
+    margin-left:31vw;
+}
+
+.boutton_vider{
+
+    padding-bottom: 1vw;
+    padding-top: 0.9vw;
+    border : solid black  0.1vw ;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', cursive;  
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    width:10vw;
+    height:3vw;
+    border-radius: 2.8vw;
+    margin-left:45vw;
+}
+
+.nbrValue{
+    text-align: center;
+    height:1.5vw;
+    width:2vw;
+    margin-bottom:0.3vw;
+}
+
+.icoDeleteItem{
+    background-color: black;
+    width:1vw;
+}
+
+
+.boutonClose{
+    padding:1vw;
+    border-radius: 5vw;
+    width:2vw;
+    position:absolute;
+    right:0vw;
+    bottom:35.5vw;
+    background-color: rgb(0, 0, 0);
+    border: 0.6vw solid white;
+    z-index: 10000;
+}
+
+
+.tableau_container{
+    font-family: 'Bebas Neue', cursive;
+    margin-top:5vw;
+    padding-left: 4vw;
+    font-size: 1.4vw;
+    border-collapse : collapse;
+    border-bottom: 0.3vw solid black;
+    max-height:28vw;
+
+}
+
+.tableau_header{
+    font-weight: 900;
+    font-size: 1.6vw;
+    height:5vw;    
+    color:white;
+    background-color: black;
+    border-bottom: 0.11vw solid rgb(255, 255, 255);
+
+}
+
+
+.tableau_produit{
+
+    text-align: left;
+    width:25vw;
+    height:3vw;
+    padding-left: 1.4vw;
+
+}
+
+.tableau_type{
+
+    text-align: left;
+    width:4vw;
+    padding-right:8vw;
+
+}
+
+.tableau_prix{
+    background-color: black;
+    color: white;
+
+    width:10vw;
+}
+
+.tableau_qte{
+    background-color: black;
+    color: white;
+    width:5vw;
+}
+
+.tableau_total{
+    width:5vw;
+    background-color: black;
+    color: white;
+
+}
+
+th{
+    border-bottom: 0.1vw solid black;
+}
+
+#flou{
+    transition: all 1.5s ease-out;
+}
+
+.flou_active{
+    filter: blur(0.3vw);
+}
+
+.flou_disabled{
+    filter: blur(0vw);
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    
+    .container_panier{
+        background-color: white;
+        position: fixed;
+        z-index: 100000000;
+        bottom:0;
+        right:0;
+        width:100vw;
+        height: 100vh;
+        border-radius: 0vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    
+    .titrePanier{
+        padding-top: 13vw;
+        font-size: 28vw;
+        font-family: 'Bebas Neue', cursive;
+        height:3vw;
+    }
+    
+    .total_prix {
+        margin-top: 2vw;
+        margin-left: 1vw;
+        font-size: 12vw;
+        font-family: 'Bebas Neue', cursive;   
+    }
+    
+    .div_total{
+        bottom:15vw;
+        position:fixed;
+        background-color: rgb(255, 255, 255);
+        width:100vw;
+        display: flex;
+        align-items: center;
+        border-top: solid 0.3vw black ;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .vide{
+        margin-top: 30vw;
+        font-size: 8vw;
+        font-family: 'Bebas Neue', cursive;  
+        background-color: black;
+        color: white;  
+    }
+    
+    .boutton_continuer{
+        padding-top: 30vw;
+        margin-top: 2vw;
+        font-size: 10vw;
+        font-family: 'Bebas Neue', cursive;  
+        background-color: black;
+        color:white;
+        border: none;
+        padding:1vw;
+        width:50vw;
+        height:14vw;
+        border-radius: 10vw;
+        margin-left:4vw;
+        margin-bottom:1vw;
+    }
+    
+    .boutton_vider{
+    
+        padding-bottom: 1vw;
+        padding-top: 1.3vw;
+        border : solid black  0.1vw ;
+        font-size: 5.7vw;
+        font-family: 'Bebas Neue', cursive;  
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        width:40vw;
+        height:10vw;
+        border-radius: 5vw;
+        margin-top:1vw;
+        margin-left:2vw;
+    }
+    
+    .nbrValue{
+        font-size: 4vw;
+        font-family: 'Bebas Neue', cursive;  
+        text-align: center;
+        height:6vw;
+        width:10vw;
+        margin-bottom:2vw;
+    }
+    
+    .icoDeleteItem{
+        position: relative;
+        bottom:0.3vw;
+        background-color: black;
+        width:8vw;
+        border-radius: 5vw;
+        padding:1vw;
+        margin-bottom:0vw;
+        
+    }
+    
+    
+    .boutonClose{
+        padding:1vw;
+        border-radius: 10vw;
+        width:13vw;
+        position:absolute;
+        right:0vw;
+        top:15vw;
+        background-color: rgb(0, 0, 0);
+        border: 0.6vw solid white;
+        z-index: 10000;
+    }
+    
+    
+    .tableau_container{
+        width: 200vw;
+        font-family: 'Bebas Neue', cursive;
+        margin-top:27vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        font-size: 8vw;
+        font-weight: 100;
+        border-collapse : collapse;
+        border-bottom: 0.3vw solid black;
+
+    }
+    
+
+
+    .table_responsive{
+        overflow-x:auto;
+        -webkit-overflow-scrolling:auto;
+        display: block;
+        margin-left: 2vw;
+        margin-right: 0vw;
+
+    }
+    .tableau_header{
+        font-weight: 900;
+        font-size: 8vw;
+        height:9vw;    
+        color:white;
+        background-color: black;
+        border-bottom: 0.11vw solid rgb(255, 255, 255);
+    
+    }
+    
+    
+    .tableau_produit{
+        border-left: 0.1vw solid black;
+        text-align: left;
+        width:70vw;
+        height:3vw;
+        padding-left: 1.4vw;
+    
+    }
+    
+    .tableau_type{
+    
+        text-align: left;
+        width:4vw;
+        padding-right:10vw;
+    
+    }
+    
+    .tableau_prix{
+        background-color: black;
+        color: white;
+    
+        width:20vw;
+    }
+    
+    .tableau_qte{
+        background-color: black;
+        color: white;
+        width:20vw;
+    }
+    
+    .tableau_total{
+        width:15vw;
+        background-color: black;
+        color: white;
+    
+    }
+
+    .tableau_croix{
+
+        background-color: rgb(255, 255, 255);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 0vw solid black;
+        padding-top:1.3vw;
+    
+    }
+    
+    th{
+        border-bottom: 0.1vw solid black;
+    }
+    
+    #flou{
+        transition: all 1.5s ease-out;
+    }
+    
+    .flou_active{
+        filter: blur(0.3vw);
+    }
+    
+    .flou_disabled{
+        filter: blur(0vw);
+    }
+    
+
+
+
+    #panier{
+        transition: all 1.5s ease-out;
+        left:0vw;
+    }
+
+
+    .panier_active {
+        display:flex;
+        z-index: 9999;
+        animation: slide-down 1s ease forwards;
+      }
+
+
+    .panier_disabled {
+        display: none;
+        transform: translateY(100%);
+      }
+
+
+
+      @keyframes slide-down {
+        from {
+          transform: translateY(100%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+}

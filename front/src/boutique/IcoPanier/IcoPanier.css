@@ -1,0 +1,194 @@
+#panier{
+    transition: all 1.5s ease-out;
+}
+
+
+#icopanier{
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+
+
+
+.icopanier_top{
+    border-radius: 20vw;
+    position: fixed;
+    right:0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 7vw;
+    height: 7vw;
+    color:white;
+    backdrop-filter: invert(100%);
+    position: fixed;
+    bottom:10vw;
+
+}
+
+
+.div_icopanier{
+    border-radius: 20vw;
+    position: fixed;
+    right:0;
+    bottom:10px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 7vw;
+    height: 7vw;
+    color:white;
+    backdrop-filter: invert(100%);
+    z-index:10000;
+
+}
+
+.iconePanier{
+    margin-right:0.9vw;
+
+    width: 7vw;
+}
+
+
+
+.fond_nbrPanier{
+
+    position: fixed;
+    right:5.6vw;
+    bottom:1vw;
+    background-color: rgba(0, 0, 0, 0.739);
+    width:2vw;
+    height:2vw;
+    border-radius: 100%;
+    border: solid white;
+}
+
+.nbrPanier{
+    position: fixed;
+    right:5.8vw;
+    bottom:1.5vw;
+    font-family: roboto;
+    width:2vw;
+    height:2vw;
+    font-size: 2vw;
+
+
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .div_icopanier{
+        border-radius: 20vw;
+        position: fixed;
+        right:0;
+        bottom:10vw;
+        background-color: rgba(255, 255, 255, 0);
+        width: 15vw;
+        height: 15vw;
+        color:white;
+        backdrop-filter: invert(100%);
+    
+    }
+    
+    .iconePanier{
+        margin-right:0.9vw;
+        width: 15vw;
+    }
+    
+    
+    
+    .fond_nbrPanier{
+    
+        position: fixed;
+        right:13vw;
+        bottom:1vw;
+        background-color: rgba(0, 0, 0, 0.739);
+        width:8vw;
+        height:8vw;
+        border-radius: 100%;
+        border: solid white;
+    }
+    
+    .nbrPanier{
+        position: fixed;
+        right:15vw;
+        bottom:8.2vw;
+        font-family: roboto;
+        width:5vw;
+        height:2vw;
+        font-size: 8vw;
+    
+    
+    }
+
+
+
+}
+@media screen and (max-width: 450px) {
+
+    .icopanier_top{
+        border-radius: 20vw;
+        position: fixed;
+        right:0;
+        background-color: rgba(255, 255, 255, 0);
+        width: 7vw;
+        height: 7vw;
+        color:white;
+        backdrop-filter: invert(100%);
+        position: fixed;
+        bottom:10vw;
+    
+    }
+    
+    
+    .div_icopanier{
+        border-radius: 20vw;
+        position: fixed;
+        right:0;
+        bottom:16vw;
+        background-color: rgba(255, 255, 255, 0);
+        width: 20vw;
+        height: 20vw;
+        color:white;
+        backdrop-filter: invert(100%);
+    
+    }
+    
+    .iconePanier{
+        margin-right:0.9vw;
+        width: 20vw;
+    }
+    
+    
+    
+    .fond_nbrPanier{
+    
+        position: fixed;
+        right:15vw;
+        bottom:1vw;
+        background-color: rgba(0, 0, 0, 0.739);
+        width:8vw;
+        height:8vw;
+        border-radius: 100%;
+        border: solid white;
+    }
+    
+    .nbrPanier{
+        position: fixed;
+        right:17vw;
+        bottom:8.2vw;
+        font-family: roboto;
+        width:5vw;
+        height:2vw;
+        font-size: 8vw;
+    
+    
+    }
+
+
+
+
+}
+
+
+
